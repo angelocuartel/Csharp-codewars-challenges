@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7E45638-5FB3-498E-A40D-CFAE3166661E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrainingGround</RootNamespace>
+    <AssemblyName>TrainingGround</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.3.5.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Downloads\Documents\packages\MetroModernUI.1.3.5.0\lib\net45\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.3.5.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Downloads\Documents\packages\MetroModernUI.1.3.5.0\lib\net45\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.3.5.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\Downloads\Documents\packages\MetroModernUI.1.3.5.0\lib\net45\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.21.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StringCount.cs" />
+    <None Include="Temperature.cs" />
+    <None Include="Scrambles.cs" />
+    <None Include="StreetFighter.cs" />
+    <None Include="TicTacToeChanger.cs" />
+    <None Include="Alphabet war - airstrike - letters massacre.cs" />
+    <None Include="AlphabetWars_Reinforces_massacre.cs" />
+    <None Include="StringRotation.cs" />
+    <None Include="AlphabetWar.cs" />
+    <None Include="TrafficLights.cs" />
+    <None Include="ValidateMyPassword.cs" />
+    <None Include="ConsecutiveString.cs" />
+    <None Include="StringNumbersCalculation.cs" />
+    <None Include="SplitString.cs" />
+    <None Include="ReverseOrder.cs" />
+    <None Include="SortedArrays.cs" />
+    <None Include="Meeting.cs" />
+    <None Include="WhichAreIN.cs" />
+    <None Include="Coffe.cs" />
+    <None Include="SudokuValidator.cs" />
+    <None Include="Scrabble.cs" />
+    <None Include="MultiplicationTable.cs" />
+    <None Include="WaveSorting.cs" />
+    <None Include="TwoList.cs" />
+    <None Include="ReplaceString.cs" />
+    <None Include="StringTask.cs" />
+    <None Include="SumParts.cs" />
+    <None Include="ShortestWords.cs" />
+    <None Include="RemoveParenthesis.cs" />
+    <None Include="PyramidArray.cs" />
+    <None Include="FinalNumSequence.cs" />
+    <None Include="SimpleNumberSequence.cs" />
+    <None Include="SnailSort.cs" />
+    <None Include="StringWeirdCase.cs" />
+    <None Include="SortOdd.cs" />
+    <None Include="RegexPinCode.cs" />
+    <None Include="SimpleSequence.cs" />
+    <None Include="StripComments2.cs" />
+    <None Include="OnesZeroes.cs" />
+    <None Include="BowlingPins.cs" />
+    <None Include="DubStep.cs" />
+    <Compile Include="test.cs" />
+    <None Include="NumbersInSrtings.cs" />
+    <None Include="ReverseString.cs" />
+    <None Include="BackSpace.cs" />
+    <None Include="MovingZeros.cs" />
+    <None Include="StripComments.cs" />
+    <None Include="RgbFunctionChallenge.cs" />
+    <None Include="RotationCipher.cs" />
+    <None Include="SumArrayChallenge.cs" />
+    <None Include="MissingAlphabet.cs" />
+    <None Include="Digits.cs" />
+    <None Include="DupplicateArray.cs" />
+    <None Include="VasyaClerk.cs" />
+    <None Include="LetterPosition.cs" />
+    <None Include="PalindromeChallenge.cs" />
+    <None Include="Spin.cs" />
+    <None Include="challenge stringIntseparate.cs" />
+    <None Include="ExArray14.cs" />
+    <None Include="challenge StringRev.cs" />
+    <None Include="Ex Array10.cs" />
+    <None Include="Ex Array5.cs" />
+    <None Include="Ex Array6.cs" />
+    <None Include="Challenge subarray.cs" />
+    <None Include="Ex array4.cs" />
+    <None Include="Ex Method3.cs" />
+    <None Include="Ex Methods2.cs" />
+    <None Include="Ex Methods5.cs" />
+    <None Include="methods.cs" />
+    <None Include="PrintMiddleChar.cs" />
+    <None Include="Ex Method4.cs" />
+    <None Include="Ex Methods6.cs" />
+    <None Include="Ex Methods7.cs" />
+    <None Include="Ex Numeral5.cs" />
+    <None Include="Ex Methods9.cs" />
+    <None Include="Ex Numeral1.cs" />
+    <None Include="Ex Numeral6.cs" />
+    <None Include="Ex Numeral2.cs" />
+    <None Include="challenge.cs" />
+    <None Include="Ex Numeral11.cs" />
+    <None Include="Ex Numeral3.cs" />
+    <None Include="ExObject1.cs" />
+    <None Include="ExObject2.cs" />
+    <None Include="ExObject3.cs" />
+    <None Include="ExObject4.cs" />
+    <None Include="ExObject11.cs" />
+    <None Include="ExObject5.cs" />
+    <None Include="CashierSpace.cs" />
+    <None Include="ArrayLeaders.cs" />
+    <None Include="Anagrams.cs" />
+    <None Include="ChristmasTree.cs" />
+    <None Include="2dArray.cs" />
+    <None Include="Calculator.cs" />
+    <None Include="ConsecutiveRepition.cs" />
+    <Compile Include="CreatingAndUsingObjects\Cat.cs" />
+    <Compile Include="CreatingAndUsingObjects\Sequence.cs" />
+    <None Include="ExObject7\MainClass.cs" />
+    <None Include="ExObject9.cs" />
+    <None Include="ObservedPin.cs" />
+    <None Include="IntParse2Reloaded.cs" />
+    <None Include="DecipherThis.cs" />
+    <None Include="IntParseReloaded.cs" />
+    <None Include="MorseCode.cs" />
+    <None Include="NearestEven.cs" />
+    <None Include="EncodeMorse.cs" />
+    <None Include="EnglishBeggars.cs" />
+    <None Include="NumberExpandedForm.cs" />
+    <None Include="EquationObjectList.cs" />
+    <None Include="Diamond.cs" />
+    <None Include="EncryptThis.cs" />
+    <None Include="MatrixAddition.cs" />
+    <None Include="ListFilter.cs" />
+    <None Include="CustomChristMasTree.cs" />
+    <None Include="GarbleSort.cs" />
+    <None Include="Pangram.cs" />
+    <None Include="PascalTriangle.cs" />
+    <None Include="PascalTriangle2.cs" />
+    <None Include="FindDuplicates.cs" />
+    <None Include="MazeRunner.cs" />
+    <None Include="ParityOutlier.cs" />
+    <None Include="NumOfTrailingZeroes.cs" />
+    <None Include="PhoneNumber.cs" />
+    <None Include="Mumbling.cs" />
+    <None Include="PaginationHelper.cs" />
+    <None Include="DuplicateEncoder.cs" />
+    <None Include="First_Non_Repeating_Char.cs" />
+    <None Include="MessageValidation.cs" />
+    <None Include="Fibonacci.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
